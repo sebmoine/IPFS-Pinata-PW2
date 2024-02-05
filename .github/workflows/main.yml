@@ -1,0 +1,8 @@
+uses: sebmoine/IPFS-Pinata-PW2@v1.6.4
+with:
+  pin-name: 'My personal site'
+  path: './build'
+  pinata-api-key: 11111111111111111111
+  pinata-secret-api-key: 2222222222222222222222222222222222222222222222222222222222222222
+  verbose: true
+  remove-old: false
