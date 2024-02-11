@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2.1.0
       - name: Pinata deploy action step
         id: deploy
-        uses: sebmoine/IPFS-Pinata-PW2@v4
+        uses: sebmoine/IPFS-Pinata-PW2@v2
         with:
           pin-name: 'My personal site TESTING'
           path: './site'
