@@ -10,7 +10,7 @@ jobs:
         uses: sebmoine/IPFS-Pinata-PW2@v1.6.4
         with:
           pin-name: 'My personal site TESTING (v1.6.3)'
-          path: './.github/workflows/site2test'
+          path: './site'
           pinata-api-key: ${{ secrets.IPFS_PINATA_DEPLOY_ACTION_API_KEY }}
           pinata-secret-api-key: ${{ secrets.IPFS_PINATA_DEPLOY_ACTION_API_SECRET_KEY }}
           verbose: true
